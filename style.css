@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+    gap: 20px;
+    margin-top: 40px;
+    
+}
+
+.ImageSearch{
+    margin-top: 50px;
+}
+
+.image-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 33.33%;
+    flex-grow: 1;
+}
+
+.card{
+    width: 30%;
+    height: 200px;
+    margin: 20px;
+    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 5px;
+    background-size: cover;
+}
+
